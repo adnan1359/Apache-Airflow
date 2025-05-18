@@ -51,7 +51,7 @@
 
 ---
 
-### Summary for Beginners
+### Summary
  - Airflow is like a smart manager for your data tasks.
  - It organizes tasks, ensures they run in the right order, scales with your needs, and alerts you if something goes wrong.
  - Its flexibility and visibility make it easier to manage complex data pipelines compared to older tools like cron jobs.
