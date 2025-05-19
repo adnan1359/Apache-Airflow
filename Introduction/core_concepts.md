@@ -29,7 +29,7 @@
     - Custom operators can be created for unique needs.
 
 - **Sensors**:
-  - **What It Is**: Sensors are a special type of operatorthat wait for a specific condition to be met before allowing the workflow to proceed. They continuously check (or “sense”) an external system or resource (e.g., a file, database, or API) until the condition is satisfied or a timeout occurs.
+  - **What It Is**: Sensors are a special type of operator that wait for a specific condition to be met before allowing the workflow to proceed. They continuously check (or “sense”) an external system or resource (e.g., a file, database, or API) until the condition is satisfied or a timeout occurs.
   - **Why It Matters**: Sensors enable Airflow to handle external dependencies, ensuring tasks only run when required conditions (e.g., data availability) are met, preventing errors from premature execution.
   - **Beginner Example**: An e-commerce company needs to process daily sales data, but the data file is uploaded to an AWS S3 bucket at an unpredictable time. A S3KeySensor is used in the DAG to check every 60 seconds if the file (e.g., sales_data.csv) exists in the S3 bucket. Once the file is detected, the sensor succeeds, and downstream tasks (e.g., extract, transform) proceed.
   - **Key Features**:
