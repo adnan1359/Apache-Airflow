@@ -4,19 +4,19 @@
 
 - **What They Are**:
 
-- Executors in Airflow are components responsible for running tasks defined in a DAG (Directed Acyclic Graph). They determine how and where tasks are executed, whether on a single machine or distributed across multiple workers.
-
-- Executors manage resource allocation, task scheduling, and parallel execution, interacting with the Airflow scheduler and metadata database to ensure tasks are processed efficiently.
+	- Executors in Airflow are components responsible for running tasks defined in a DAG (Directed Acyclic Graph). They determine how and where tasks are executed, whether on a single machine or distributed across multiple workers.
+	
+	- Executors manage resource allocation, task scheduling, and parallel execution, interacting with the Airflow scheduler and metadata database to ensure tasks are processed efficiently.
 
   
 
 - **Why They Matter**:
 
-- Executors enable Airflow to scale and adapt to different workload sizes, from small pipelines on a single server to large-scale distributed systems.
-
-- The choice of executor impacts performance, scalability, and resource usage, making it critical for optimizing data pipelines in production environments.
-
-- They provide flexibility to match the infrastructure and computational needs of an organization, ensuring efficient task execution.
+	- Executors enable Airflow to scale and adapt to different workload sizes, from small pipelines on a single server to large-scale distributed systems.
+	
+	- The choice of executor impacts performance, scalability, and resource usage, making it critical for optimizing data pipelines in production environments.
+	
+	- They provide flexibility to match the infrastructure and computational needs of an organization, ensuring efficient task execution.
 
   
 
